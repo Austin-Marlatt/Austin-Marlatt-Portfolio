@@ -12,45 +12,60 @@
     <header>
         <h1>Austin Marlatt</h1>
         <nav>
-            <ul> <!--insert links as I make the sections-->
-                <li><a href="#about me">About Me</a></li>
+            <ul> <!--links to sections-->
+                <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
         </nav>
-    </header> <!--welcome banner will have photo of me with a subtitle element-->
+    </header> 
 
-        <Section id="welcome-banner">
-            <img id="banner-photo" />
+    <Section id="welcome-banner"> <!--welcome banner with text block-->
+         <img id="banner-photo" />
+        <div id="text-block">
             <h2>Welcome to my Portfolio!</h2> 
-        </Section>
+        </div>
+    </Section>
         
     <main>
         <Section id="about-me">
-            <h2>About me</h2>
-                <p> <!--replace with personal story later-->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque reiciendis eum cupiditate, ab quod suscipit labore laudantium magnam, aliquam, aspernatur error distinctio sint saepe sit possimus doloribus sequi.</p>
-                    <p>Eligendi, dolore! Eum dignissimos sit provident quasi incidunt perferendis ullam, natus molestias, rerum atque culpa repellendus aliquid ratione esse? Quaerat numquam quae necessitatibus repellat ad nam inventore vitae quibusdam.</p>
-                    <p>Quis explicabo nulla inventore quibusdam ducimus cupiditate perspiciatis dolorum illo hic omnis eaque, in dolorem facere consequuntur odio? Amet reiciendis tempore at quaerat libero similique labore blanditiis, necessitatibus harum?</p>
-                    <p>Ipsa sunt cupiditate dolores ullam sit. Rerum nostrum molestiae officiis corporis nulla ipsam, possimus dolore, repudiandae sit error debitis eius maxime accusantium id aut ipsa sed ipsum, libero amet!</p>
-                    <p>Mollitia nemo, ipsam reiciendis pariatur quidem provident alias qui sunt a dolorum magni cupiditate voluptates nihil molestiae ipsum quibusdam error! Consectetur beatae dignissimos voluptates. Vitae earum assumenda quasi libero?</p>
+            <div id="about-me-header"><h2>About me</h2></div>
+                <p> <!--personal story-->
+                    <p>I am a student at the University of Oregon Coding Bootcamp, currently learning the basic skills needed to thrive in a future workplace.</p>
+                    <p>Below are projects I have worked on, as well as a few links to my GitHub and LinkedIn accounts.</p>
                 </p>
         </Section>
+
+    </br>
+
         <section id="work">
-            <h2>Work</h2>
-        </section>
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-                <ul>
-                    <nav> <!--add contact links later-->
-                        <a href="#">phone number</a>
-                        <a href="#">GitHub</a>
-                        <a href="#">LinkedIn</a>
-                    </nav>
-                </ul>
+            <div id="work-header"><h2>Work</h2></div> <!--Section containg work samples-->
+
+                <div id="prework">
+                    <a class="work-label" href="https://austin-marlatt.github.io/prework-study-guide/">Prework Study Guide</a>
+                </div>
+
+                <div id="horiseon">
+                    <a class="work-label" href="https://austin-marlatt.github.io/refactoringstore/">Horiseon</a>
+                </div>
+                
+                <div id="randomizer">
+                    <a class="work-label" href="https://austin-marlatt.github.io/Randomizer-WIP/">The Great Randomizer</a>
+                </div>
 
         </section>
+        
+    </br>
+
+        <footer id="contact-me">
+            <h2>Contact Me</h2>
+                    <nav> <!--links to accounts, dead link included to streamline styling-->
+                        <a href="#">541-916-6049</a>
+                        <a href="https://github.com/Austin-Marlatt">GitHub</a>
+                        <a href="https://www.linkedin.com/in/austin-marlatt-412937168/">LinkedIn</a>
+                    </nav>
+        </footer>
     </main>
 </body>
 </html>
